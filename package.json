@@ -1,0 +1,27 @@
+{
+  "name": "tyr.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/browserify -o public/js/bundle.js src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th317erd/tyr.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th317erd/tyr.io/issues"
+  },
+  "homepage": "https://github.com/th317erd/tyr.io#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.4.3"
+  }
+}

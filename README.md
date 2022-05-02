@@ -1,2 +1,3 @@
 # tyr.io
-A creative approach to front-end frameworks for the web
+
+A lightning fast GL GUI
